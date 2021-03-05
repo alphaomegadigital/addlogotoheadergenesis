@@ -1,0 +1,37 @@
+/* Title Area
+--------------------------------------------- */
+.title-area {
+	float: left;
+	padding: 25px 0;
+	width: 360px;
+}
+
+.site-header.dark .title-area {
+	padding: 15px 0;
+}
+.site-title {
+	font-size: 24px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	line-height: 1;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.site-title a,
+.site-title a:focus,
+.site-title a:hover {
+	color: #fff !important;
+}
+------------This is the additional code I used to display my logo next to my site title------------------- */
+
+.site-title a:before{
+  content:"";
+  background-image:url('https://source.unsplash.com/random');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  width: 4em; 
+  height: 3em;
+
+}
